@@ -10,8 +10,8 @@
   --teal: #64ffda;
   --teal-soft: rgba(100, 255, 218, 0.1);
   --border: rgba(148, 163, 199, 0.16);
-  --font-sans: Inter, "SF Pro Display", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-sans: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", "PingFang SC", "Microsoft YaHei", monospace;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -115,9 +115,11 @@ h1 {
   color: var(--slate-100);
   font-size: clamp(3.15rem, 5.7vw, 5.75rem);
   font-weight: 720;
-  letter-spacing: -0.062em;
-  line-height: 0.92;
+  letter-spacing: 0.01em;
+  line-height: 1.12;
 }
+
+.title-period { color: var(--teal); }
 
 .intro__role { margin-bottom: 1rem; color: var(--slate-200); font-size: clamp(1.2rem, 2vw, 1.5rem); font-weight: 600; letter-spacing: -0.025em; line-height: 1.35; }
 .intro__summary { max-width: 31rem; margin-bottom: 0; font-size: 1.02rem; }
